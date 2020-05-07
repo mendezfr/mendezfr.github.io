@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+  <channel>
+  <tittle>Francisco Javier Rodriguez Mendez. Ejercicios XML</tittle>  
+  <link></link>
+  <description></description>
+    <item>
+      <tittle>Ejercicio 1</tittle>  
+    <link></link>
+    <description></description>
+    </item>
+    <item>
+    <tittle>Ejercicio 2</tittle>  
+    <link></link>
+    <description></description>
+    </item>
+  </channel>
+</rss>
