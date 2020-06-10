@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-image:  url(a.jpg)}
+a {
+    text-decoration: none;
+color: white;
+}
+ul {
+    list-style-type: none;
+    background: #DE5804;
+padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+ul li {
+display: inline;
+    
+}
+
+ul:hover {
+    list-style-type: none;
+    
+padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul li {
+    padding: 20px;
+display: inline;
+}
+i {
+    color: dimgray;
+    font-size: 40px;
+    margin-right: 20px;
+    margin-top: 150px;
+}
+ul li:hover {
+     background: dimgray;
+}
+ul {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+p{
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 50px;
+    border: 1px solid dimgray;
+    padding: 50px;
+}
