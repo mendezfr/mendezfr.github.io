@@ -25,7 +25,7 @@
 <transporte tipo="coche">Coche</transporte>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Vi a una persona en la calle gritando sempai mientras iba detras de alguien</anecdota>
-<foto>fjapon.jpg</foto>
+<foto>img/fjapon.jpg</foto>
 <valoracion>Increible</valoracion>
 </etapa>
 <etapa id="Segunda">
@@ -36,7 +36,7 @@
 <pais>Corea</pais>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Una secta me intento convencer para unirme a ellos y vi a unos tios raros haciendo playback y bailando en la calle, que raro...</anecdota>
-<foto>fcorea.jpg</foto>
+<foto>img/fcorea.jpg</foto>
 <valoracion>Es como japon pero un pelin mas occidental</valoracion>
 </etapa>
 <etapa id="Tercera">
@@ -47,7 +47,7 @@
 <pais>República Popular de China</pais>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Probé la sopa de murcielago, esta muy rica, pero creo que me he resfriado, voy a dar una vuelta al mundo, solo es un resfriado</anecdota>
-<foto>fchina.jpg</foto>
+<foto>img/fchina.jpg</foto>
 <valoracion>Es como japon y corea pero todavia mas occidental</valoracion>
 </etapa>
 <etapa id="Cuarta">
@@ -58,7 +58,7 @@
 <pais>India</pais>
 <transporte tipo="tren">Tren</transporte>
 <anecdota>Pedi carne de vaca y casi llaman a la policia...</anecdota>
-<foto>findia.jpg</foto>
+<foto>img/findia.jpg</foto>
 <valoracion>Esta bien pero me mola mas japon.</valoracion>
 </etapa>
 <etapa id="Quinta">
@@ -69,7 +69,7 @@
 <pais>Emiratos Arabes Unidos</pais>
 <transporte tipo="avion">Avion</transporte>
 <anecdota>Me sente en el suelo para descansar un rato y un tio me dio 2000$... Parece que son ricos.</anecdota>
-<foto>feau.jpg</foto>
+<foto>img/feau.jpg</foto>
 <valoracion>MUCHA calor</valoracion>
 </etapa>
 <etapa id="Sexta">
@@ -82,7 +82,7 @@
 <transporte tipo="coche">coche</transporte>
 <transporte tipo="tren">Tren</transporte>
 <anecdota>Vi a unas decenas miles de europeos entrando por las puertas de jerusalen, algunos a caballo gritando "DEUS VAULT"</anecdota>
-<foto>fisrael.jpg</foto>
+<foto>img/fisrael.jpg</foto>
 <valoracion>Es europa pero con mas posibilidad de que te caiga un misil.</valoracion>
 </etapa>
 <etapa id="Septima">
@@ -93,7 +93,7 @@
 <pais>Egipto</pais>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Nada en especial, me siento estafado, en el canal historial decian que las piramides eran naves reptilianas-alienigenas que han venido de aldebaran... pero eran solo piedra.</anecdota>
-<foto>fegipto.jpg</foto>
+<foto>img/fegipto.jpg</foto>
 <valoracion>Meh</valoracion>
 </etapa>
 <etapa id="Octava">
@@ -104,7 +104,7 @@
 <pais>Turquia</pais>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Me deje una puerta abierta y parece que unos turcos entraron y la reclamaron como su propia ciudad.</anecdota>
-<foto>fturquia.jpg</foto>
+<foto>img/fturquia.jpg</foto>
 <valoracion>Esta bien</valoracion>
 </etapa>
 <etapa id="Novena">
@@ -115,7 +115,7 @@
 <pais>Grecia</pais>
 <transporte tipo="barco">Barco</transporte>
 <anecdota>Un tio mayor estaba contando un chiste y se rio tanto que se murio.</anecdota>
-<foto>fgrecia.jpg</foto>
+<foto>img/fgrecia.jpg</foto>
 <valoracion>De las mejores ciudades.</valoracion>
 </etapa>
 <etapa id="Decima">
@@ -126,7 +126,7 @@
 <pais>Italia</pais>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Vi a un señor y yo llevaba una navaja, me resbalé y se la clavé en la espalda, se murio, espero que no pase nada.</anecdota>
-<foto>fitalia.jpg</foto>
+<foto>img/fitalia.jpg</foto>
 <valoracion>Esta muy bien</valoracion>
 </etapa>
 <etapa id="Undécima">
@@ -137,7 +137,7 @@
 <pais>Francia</pais>
 <transporte tipo="tren">Tren</transporte>
 <anecdota>Entré a la ciudad y de repente las banderas francesas pasaron a ser blancas, bastante representativo de su historia</anecdota>
-<foto>ffrancia.jpg</foto>
+<foto>img/ffrancia.jpg</foto>
 <valoracion>Muy caro</valoracion>
 </etapa>
 <etapa id="Duodécima">
@@ -149,7 +149,7 @@
 <transporte tipo="coche">coche</transporte>
 <transporte tipo="tren">Tren</transporte>
 <anecdota>Vi a una señora que segun dicen es inmortal, se llama Isabel</anecdota>
-<foto>funido.jpg</foto>
+<foto>img/funido.jpg</foto>
 <valoracion>No para de llover</valoracion>
 </etapa>
 <etapa id="Decimotercera">
@@ -160,7 +160,7 @@
 <pais>Estados Unidos de America</pais>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Se me cayó una bolsa, creo que se conoce como el crack de la bolsa de Nueva York</anecdota>
-<foto>feua.jpg</foto>
+<foto>img/feua.jpg</foto>
 <valoracion>Caro y mucho ruido</valoracion>
 </etapa>
 <etapa id="Decimocuarta">
@@ -171,7 +171,7 @@
 <pais>Canada</pais>
 <transporte tipo="avion">Avión</transporte>
 <anecdota>Nada interesante</anecdota>
-<foto>fcanada.jpg</foto>
+<foto>img/fcanada.jpg</foto>
 <valoracion>Bien</valoracion>
 </etapa>
 <etapa id="Decimoquinta">
@@ -183,7 +183,7 @@
 <transporte tipo="avion">Avión</transporte>
 <transporte tipo="coche">coche</transporte>
 <anecdota>Mi pueblo</anecdota>
-<foto>frute.jpg</foto>
+<foto>img/frute.jpg</foto>
 <valoracion>No recomendable</valoracion>
 </etapa>
 </vuelta>
