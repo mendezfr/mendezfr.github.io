@@ -1,0 +1,10 @@
+<!ELEMENT vuelta (etapa)+>
+<!ELEMENT etapa (fecha_inicio, fecha_fin, lugar_origen, lugar_destino, transporte+, anecdota, foto)>
+<!ATTLIST etapa id ID #REQUIRED>
+<!ELEMENT fecha_inicio (#PCDATA)>
+<!ELEMENT fecha_fin (#PCDATA)>
+<!ELEMENT lugar_origen (#PCDATA)>
+<!ELEMENT lugar_destino (#PCDATA)>
+<!ELEMENT transporte (#PCDATA)>
+<!ELEMENT anecdota (#PCDATA)>
+<!ELEMENT foto ANY>

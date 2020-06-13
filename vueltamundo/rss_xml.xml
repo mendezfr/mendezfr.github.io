@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+	<channel>
+		<item>
+			<title>Etapas vuelta al mundo Mendez</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>Aqui estaran todas las etapas</description>
+		</item>
+		<item>
+			<title>Etapa 1</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De rute a tokyo</description>
+		</item>
+		<item>
+			<title>Etapa 2</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De tokyo a Seoul</description>
+		</item>
+		<item>
+			<title>Etapa 3</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Seoul a Wuhan</description>
+		</item>
+		<item>
+			<title>Etapa 4</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Wuhan a Nueva Delhi</description>
+		</item>
+				<item>
+			<title>Etapa 5</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Nueva Delhi a Abu Dhabi</description>
+		</item>
+		<item>
+      <title>Etapa 6</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Abu Dhabi a Jerusalem</description>
+			</item>
+					<item>
+      <title>Etapa 7</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Jerusalem a El cairo</description>
+			</item>
+		<item>
+      <title>Etapa 8</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De El Cairo a Constantinopla</description>
+			</item>
+					<item>
+      <title>Etapa 9</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Constantinopla a Atenas</description>
+			</item>
+					<item>
+      <title>Etapa 10</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Atenas a Roma</description>
+			</item>
+					<item>
+      <title>Etapa 11</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Roma a Paris</description>
+			</item>
+					<item>
+      <title>Etapa 12</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Paris a Londres</description>
+			</item>
+					<item>
+      <title>Etapa 13</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Londres a Nueva York</description>
+			</item>
+					<item>
+      <title>Etapa 14</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Nueva York a Vancouver</description>
+			</item>
+					<item>
+      <title>Etapa 15</title>
+			<link>https://mendezfr.github.io/vueltamundo/main.xml</link>
+			<description>De Vancouver a Rute</description>
+			</item>
+	</channel>
+</rss>

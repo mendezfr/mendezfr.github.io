@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml.xsl" ?>
+<!DOCTYPE vuelta [
+<!ELEMENT vuelta (etapa)+>
+<!ELEMENT etapa (fecha_inicio, fecha_fin, lugar_origen, lugar_destino, pais, transporte*, anecdota, foto, valoracion)>
+<!ATTLIST etapa id ID #REQUIRED>
+<!ELEMENT fecha_inicio (#PCDATA)>
+<!ELEMENT fecha_fin (#PCDATA)>
+<!ELEMENT lugar_origen (#PCDATA)>
+<!ELEMENT lugar_destino (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT transporte (#PCDATA)>
+<!ELEMENT anecdota (#PCDATA)>
+<!ELEMENT foto ANY>
+<!ELEMENT valoracion (#PCDATA)>
+<!ATTLIST transporte tipo CDATA #REQUIRED>
+]> 
+<vuelta>
+<etapa id="Primera">
+<fecha_inicio>10-06-2020</fecha_inicio>
+<fecha_fin>11-06-2020</fecha_fin>
+<lugar_origen>Rute</lugar_origen>
+<lugar_destino>Tokyo</lugar_destino>
+<pais>Japon</pais>
+<transporte tipo="coche">Coche</transporte>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Vi a una persona en la calle gritando sempai mientras iba detras de alguien</anecdota>
+<foto>fjapon.jpg</foto>
+<valoracion>Increible</valoracion>
+</etapa>
+<etapa id="Segunda">
+<fecha_inicio>12-06-2020</fecha_inicio>
+<fecha_fin>13-06-2020</fecha_fin>
+<lugar_origen>Tokyo</lugar_origen>
+<lugar_destino>Seoul</lugar_destino>
+<pais>Corea</pais>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Una secta me intento convencer para unirme a ellos y vi a unos tios raros haciendo playback y bailando en la calle, que raro...</anecdota>
+<foto>fcorea.jpg</foto>
+<valoracion>Es como japon pero un pelin mas occidental</valoracion>
+</etapa>
+<etapa id="Tercera">
+<fecha_inicio>14-06-2020</fecha_inicio>
+<fecha_fin>15-06-2020</fecha_fin>
+<lugar_origen>Seoul</lugar_origen>
+<lugar_destino>Wuhan</lugar_destino>
+<pais>República Popular de China</pais>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Probé la sopa de murcielago, esta muy rica, pero creo que me he resfriado, voy a dar una vuelta al mundo, solo es un resfriado</anecdota>
+<foto>fchina.jpg</foto>
+<valoracion>Es como japon y corea pero todavia mas occidental</valoracion>
+</etapa>
+<etapa id="Cuarta">
+<fecha_inicio>16-06-2020</fecha_inicio>
+<fecha_fin>17-06-2020</fecha_fin>
+<lugar_origen>Wuhan</lugar_origen>
+<lugar_destino>Nueva Delhi</lugar_destino>
+<pais>India</pais>
+<transporte tipo="tren">Tren</transporte>
+<anecdota>Pedi carne de vaca y casi llaman a la policia...</anecdota>
+<foto>findia.jpg</foto>
+<valoracion>Esta bien pero me mola mas japon.</valoracion>
+</etapa>
+<etapa id="Quinta">
+<fecha_inicio>18-06-2020</fecha_inicio>
+<fecha_fin>19-06-2020</fecha_fin>
+<lugar_origen>Nueva Delhi</lugar_origen>
+<lugar_destino>Abu Dhabi</lugar_destino>
+<pais>Emiratos Arabes Unidos</pais>
+<transporte tipo="avion">Avion</transporte>
+<anecdota>Me sente en el suelo para descansar un rato y un tio me dio 2000$... Parece que son ricos.</anecdota>
+<foto>feau.jpg</foto>
+<valoracion>MUCHA calor</valoracion>
+</etapa>
+<etapa id="Sexta">
+<fecha_inicio>20-06-2020</fecha_inicio>
+<fecha_fin>21-06-2020</fecha_fin>
+<lugar_origen>Abu Dhabi</lugar_origen>
+<lugar_destino>Jerusalen</lugar_destino>
+<pais>Israel</pais>
+<transporte tipo="camello">Camello</transporte>
+<transporte tipo="coche">coche</transporte>
+<transporte tipo="tren">Tren</transporte>
+<anecdota>Vi a unas decenas miles de europeos entrando por las puertas de jerusalen, algunos a caballo gritando "DEUS VAULT"</anecdota>
+<foto>fisrael.jpg</foto>
+<valoracion>Es europa pero con mas posibilidad de que te caiga un misil.</valoracion>
+</etapa>
+<etapa id="Septima">
+<fecha_inicio>22-06-2020</fecha_inicio>
+<fecha_fin>23-06-2020</fecha_fin>
+<lugar_origen>Jerusalen</lugar_origen>
+<lugar_destino>El cairo</lugar_destino>
+<pais>Egipto</pais>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Nada en especial, me siento estafado, en el canal historial decian que las piramides eran naves reptilianas-alienigenas que han venido de aldebaran... pero eran solo piedra.</anecdota>
+<foto>fegipto.jpg</foto>
+<valoracion>Meh</valoracion>
+</etapa>
+<etapa id="Octava">
+<fecha_inicio>24-06-2020</fecha_inicio>
+<fecha_fin>25-06-2020</fecha_fin>
+<lugar_origen>El cairo</lugar_origen>
+<lugar_destino>Constantinopla</lugar_destino>
+<pais>Turquia</pais>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Me deje una puerta abierta y parece que unos turcos entraron y la reclamaron como su propia ciudad.</anecdota>
+<foto>fturquia.jpg</foto>
+<valoracion>Esta bien</valoracion>
+</etapa>
+<etapa id="Novena">
+<fecha_inicio>26-06-2020</fecha_inicio>
+<fecha_fin>27-06-2020</fecha_fin>
+<lugar_origen>Constantinopla</lugar_origen>
+<lugar_destino>Atenas</lugar_destino>
+<pais>Grecia</pais>
+<transporte tipo="barco">Barco</transporte>
+<anecdota>Un tio mayor estaba contando un chiste y se rio tanto que se murio.</anecdota>
+<foto>fgrecia.jpg</foto>
+<valoracion>De las mejores ciudades.</valoracion>
+</etapa>
+<etapa id="Decima">
+<fecha_inicio>28-06-2020</fecha_inicio>
+<fecha_fin>29-06-2020</fecha_fin>
+<lugar_origen>Atenas</lugar_origen>
+<lugar_destino>Roma</lugar_destino>
+<pais>Italia</pais>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Vi a un señor y yo llevaba una navaja, me resbalé y se la clavé en la espalda, se murio, espero que no pase nada.</anecdota>
+<foto>fitalia.jpg</foto>
+<valoracion>Esta muy bien</valoracion>
+</etapa>
+<etapa id="Undécima">
+<fecha_inicio>30-06-2020</fecha_inicio>
+<fecha_fin>1-07-2020</fecha_fin>
+<lugar_origen>Roma</lugar_origen>
+<lugar_destino>Paris</lugar_destino>
+<pais>Francia</pais>
+<transporte tipo="tren">Tren</transporte>
+<anecdota>Entré a la ciudad y de repente las banderas francesas pasaron a ser blancas, bastante representativo de su historia</anecdota>
+<foto>ffrancia.jpg</foto>
+<valoracion>Muy caro</valoracion>
+</etapa>
+<etapa id="Duodécima">
+<fecha_inicio>2-07-2020</fecha_inicio>
+<fecha_fin>3-07-2020</fecha_fin>
+<lugar_origen>Paris</lugar_origen>
+<lugar_destino>Londres</lugar_destino>
+<pais>Reino Unido</pais>
+<transporte tipo="coche">coche</transporte>
+<transporte tipo="tren">Tren</transporte>
+<anecdota>Vi a una señora que segun dicen es inmortal, se llama Isabel</anecdota>
+<foto>funido.jpg</foto>
+<valoracion>No para de llover</valoracion>
+</etapa>
+<etapa id="Decimotercera">
+<fecha_inicio>4-07-2020</fecha_inicio>
+<fecha_fin>5-07-2020</fecha_fin>
+<lugar_origen>Londres</lugar_origen>
+<lugar_destino>Nueva York</lugar_destino>
+<pais>Estados Unidos de America</pais>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Se me cayó una bolsa, creo que se conoce como el crack de la bolsa de Nueva York</anecdota>
+<foto>feua.jpg</foto>
+<valoracion>Caro y mucho ruido</valoracion>
+</etapa>
+<etapa id="Decimocuarta">
+<fecha_inicio>6-07-2020</fecha_inicio>
+<fecha_fin>7-07-2020</fecha_fin>
+<lugar_origen>Nueva York</lugar_origen>
+<lugar_destino>Vancouver</lugar_destino>
+<pais>Canada</pais>
+<transporte tipo="avion">Avión</transporte>
+<anecdota>Nada interesante</anecdota>
+<foto>fcanada.jpg</foto>
+<valoracion>Bien</valoracion>
+</etapa>
+<etapa id="Decimoquinta">
+<fecha_inicio>8-07-2020</fecha_inicio>
+<fecha_fin>9-07-2020</fecha_fin>
+<lugar_origen>Vancouver</lugar_origen>
+<lugar_destino>Rute</lugar_destino>
+<pais>Españita</pais>
+<transporte tipo="avion">Avión</transporte>
+<transporte tipo="coche">coche</transporte>
+<anecdota>Mi pueblo</anecdota>
+<foto>frute.jpg</foto>
+<valoracion>No recomendable</valoracion>
+</etapa>
+</vuelta>
