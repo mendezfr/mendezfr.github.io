@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="vuelta">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="etapa" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="fecha_inicio" type="xs:string"/>
+<xs:element name="fecha_fin" type="xs:string"/>
+<xs:element name="lugar_origen" type="xs:string"/>
+<xs:element name="lugar_destino" type="xs:string"/>
+<xs:element  name="pais" type="xs:string"/>
+<xs:element name="transporte"  minOccurs="0" maxOccurs="unbounded">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute name="tipo" type="xs:string" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+<xs:element name="anecdota" type="xs:string"/>
+<xs:element name="foto" type="xs:string"/>
+<xs:element name="valoracion" type="xs:string"/>
+</xs:sequence>
+<xs:attribute name="id" type="xs:string" use="required"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
